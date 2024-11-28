@@ -26,12 +26,9 @@ This project is a simple and responsive social links profile page. It showcases:
 **Desktop Design**
 ![Desktop Screenshot](./design/destkop-design.jpg)
 
-**Mobile Design**
-![Mobile Screenshot](./design/mobile-design.jpg)
-
 ### Links
 
-- [Live Site](#) 
+- [Live Site](https://amallal2004.github.io/Social-links-profile-card/) 
 - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/social-links-profile)
 
 ## Built With
