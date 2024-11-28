@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__header__img {
+    border-radius: 100px;
+    width: 91px;
+    height: 91px;
+    margin: 38px 0px 26px 0px;
+}
+
+.card__header__name {
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 12px;
+}
+
+.card__header__location {
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 28px;
+}
+
+.card__header__description {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 27px;
+}
+
+.card__links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 43px;
+}
+
+.card__links__link__btn {
+    width: 300px;
+    height: 42px;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    letter-spacing: -1;
+    margin-bottom: 0px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.card__links__link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+
+    width: 300px;
+    height: 42px;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    letter-spacing: -1;
+    margin-bottom: 0px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.card__links__link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
